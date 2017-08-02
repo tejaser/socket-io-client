@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import socketIOClient from "socket.io-client";
+
+
 class App extends Component {
   constructor() {
     super();
@@ -16,7 +18,7 @@ componentDidMount() {
 render() {
     const { response } = this.state;
     return (
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center", color: "white", width: "120px", height: "100px", backgroundColor: "skyblue", margin: "100px auto", padding: "5px" }}>
         {response
           ? <p>
               The temperature in Florence is: {response} °F
