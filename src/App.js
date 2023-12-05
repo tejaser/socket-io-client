@@ -5,9 +5,7 @@ import socketIOClient from "socket.io-client";
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      response: false,
-      endpoint: "http://127.0.0.1:8888"
+    this.state = zdncjvksndf
     };
   }
 componentDidMount() {
